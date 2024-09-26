@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- <link rel="stylesheet" href="css/editor.css"> -->
+</head>
+<body>
+    <div id="dashboard">
+        <div id="login-wrapper">
+            <div id="login-container">
+                <button id="login-button" class="google-button">
+                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" class="google-icon">
+                    Sign in with Google
+                </button>
+            </div>
+        </div> 
+    </div>
+
+    <nav class="navbar">
+        <img src="img/logo.png" class="logo" alt="">
+        <ul class="links-container">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"><a href="/editor" class="link">editor</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="headding">Your Blogs</h1>
+
+    <section class="blogs-section">
+        <!-- <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
+            <a href="/" class="btn dark">read</a>
+            <a href="/" class="btn grey">edit</a>
+            <a href="/" class="btn danger">delete</a>
+        </div> -->
+    </section>
+
+    <script type="module" src="js/database.js"></script>
+    <script type="module" src="js/dashboard.js"></script>
+    <script type="module" src="js/nav.js"></script>
+
+    
+</body>
+</html>

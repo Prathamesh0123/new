@@ -1,0 +1,106 @@
+/* Reset margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Create a wrapper that takes full viewport height */
+#login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* remove comment if the sigin button not showing */
+  width: 100%;
+}
+
+/* Ensure only the login container is centered within the wrapper */
+#login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Google Button Styling */
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: none;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  padding: 0 12px;
+}
+
+.google-button:hover {
+  background-color: #000; /* Change background to black */
+  color: #fff; /* Change text color to white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.google-button:active {
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Google Icon Styling */
+.google-icon {
+  height: 24px; /* Icon height */
+  margin-right: 12px;
+}
+
+/* Styling for additional content */
+#additional-content {
+  padding: 20px;
+}
+
+.navbar, .blogs-section, .headding {
+  display: none; 
+}
+
+
+body{
+  background: #ececec;
+}
+
+.login{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  background: #fff;
+}
+
+.headding{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  margin: 100px 0 20px;
+}
+
+.btn.grey{
+  background: #c5c5c5;
+  color: #000;
+  margin: 0 10px;
+}
+
+.btn.danger{
+  background: #f00;
+  color: #fff;
+}
